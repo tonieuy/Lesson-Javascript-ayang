@@ -1,0 +1,17 @@
+Pada Kali ini saya membuat dokumen belajar tentang Javascript untuk pemula
+perbedan getElementById dengan write;
+
+*Contoh document getElementById*
+<h2> ini Sedang latihan cuy </h2>
+<p id="demo"> Siapa yang ganteng?</p>
+<button type="button" onclick="tonifunc()">Jawab</button>
+function tonifunc(){
+<script> document.getElementById("demo").innerHTML="Tonny Ganteng";</script>
+}
+pada contoh di atas id demo akan berubah menjadi tonny ganteng namun tulisan ini sedang latihan tidak akan hilang
+**Contoh Dokumen Write**
+<h2> ini Sedang latihan cuy </h2>
+<p id="demo"> Siapa yang ganteng?</p>
+<button type="button" onclick="document.write("Tonny Ganteng")">Jawab</button>
+}
+pada contoh fungsi di atas ini seluruh header atau paragaf akan hilang dan di gantikan oleh tonny ganteng
